@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Политика конфиденциальности · Fitbit Obsidian Sync</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <p class="name"><a href="index.html">Fitbit Obsidian Sync</a></p>
+    <nav aria-label="Разделы сайта">
+      <a href="index.html">Об импорте</a>
+      <a href="privacy.html" aria-current="page">Конфиденциальность</a>
+      <a href="terms.html">Условия</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Политика конфиденциальности</h1>
+<p class="summary">Импорт использует доступ к Google Health для формирования дневных заметок в хранилище Obsidian на Mac.</p>
+<h2>Какие данные используются</h2>
+<ul>
+  <li><strong>Активность.</strong> Дневное число шагов, вид, время начала и длительность тренировки.</li>
+  <li><strong>Сон.</strong> Длительность сна по дате пробуждения.</li>
+  <li><strong>Показатели здоровья.</strong> Дневной пульс в покое и вариабельность пульса (HRV).</li>
+</ul>
+<p>Утилита <code>ghealth</code> запрашивает эти данные у Google после согласия пользователя. Все три разрешения Google Health запрашиваются только на чтение.</p>
+<h2>Где хранятся данные</h2>
+<p>Импорт записывает сводки в Markdown-файлы выбранного хранилища Obsidian. OAuth-данные и журналы запуска хранятся в отдельной папке приложения на Mac. Данные для работы импортёра передаются между Google Health и Mac. GitHub Pages размещает информационные страницы, а GitHub обрабатывает посещения в соответствии со своей политикой конфиденциальности. Настройки синхронизации самого хранилища и доступ к нему других приложений определяет его владелец.</p>
+<h2>Как отозвать доступ и удалить данные</h2>
+<p>Откройте <a href="https://myaccount.google.com/connections">подключения в аккаунте Google</a>, выберите Fitbit Obsidian Sync и отзовите доступ. Чтобы удалить сохранённые копии с Mac, удалите импортированные Markdown-заметки и локальные данные OAuth. Если хранилище синхронизируется или резервируется, удалите копии и там.</p>
+<p>Использование данных Google Health API приложением соответствует <a href="https://developers.google.com/health/policies/health-api-developer-user-data-policy">политике Google Health API для разработчиков</a>, включая ограничения Limited Use. Подробнее об обработке посещений сайта можно прочитать в <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">политике конфиденциальности GitHub</a>.</p>
+  </main>
+</body>
+</html>
